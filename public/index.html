@@ -174,6 +174,7 @@
 		<div class="container">
 			<div class="col-lg-12 text-center">
 				<h2>Projects</h2>
+				<h4>Click on each project for a description of each as well as the technologies used for each</h4>
 			</div><br>
 			<div class="row text-center">
 					<img class="img-circle" src="img/icon/map.svg">
@@ -199,13 +200,39 @@
 					</a>
 					<div class="caption text-center">Calculator</div>
 				</div>
-			</div>
+			</div><br>
 			<div class="row">
 				<div class="col-xs-4" id="project_files">
 					<a class="thumbnail btn btn-primary btn-lg active" role="button" data-toggle="modal" data-target="#restaurants">
 						<img class="img-responsive" src="img/fav_restaurants.png">
 					</a>
-					<div class="caption text-center">NW EATS</div>
+					<div class="caption text-center">Google Maps</div>
+				</div>
+				<div class="col-xs-4" id="project_files">
+					<a class="thumbnail btn btn-primary btn-lg active" role="button" data-toggle="modal" data-target="#parks">
+						<img class="img-responsive" src="img/np.png">
+					</a>
+					<div class="caption text-center">National Parks Register</div>
+				</div>
+				<div class="col-xs-4" id="project_files">
+					<a class="thumbnail btn btn-primary btn-lg active" role="button" data-toggle="modal" data-target="#sodalister">
+						<img class="img-responsive" src="img/ad_lister.png">
+					</a>
+					<div class="caption text-center">AdLister/Craiglist Clone</div>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-xs-4" id="project_files">
+					<a class="thumbnail btn btn-primary btn-lg active" role="button" data-toggle="modal" data-target="#fitwager">
+						<img class="img-responsive" src="img/fw.png">
+					</a>
+					<div class="caption text-center">Fitwager</div>
+				</div>
+				<div class="col-xs-4" id="project_files">
+					<a class="thumbnail btn btn-primary btn-lg active" role="button" data-toggle="modal" data-target="#codedecipher">
+						<img class="img-responsive" src="img/cd.png">
+					</a>
+					<div class="caption text-center">Code Decipher</div>
 				</div>
 			</div>
 		</div>
@@ -219,12 +246,14 @@
 		    <div class="modal-content">
 		      <div class="modal-header">
 		        <button type="button" class="close" data-dismiss="modal">&times;</button>
-		        <h4 class="modal-title">Modal Header</h4>
+		        <h4 class="modal-title">Simple Simon</h4>
 		      </div>
 		      <div class="modal-body">
-		        <p>Some text in the modal.</p>
+		        <p>Simple Simon game adapted to Bop-It theme, sounds also included on user click and a lighting of one of the five areas.</p>
+		        <p>
 		      </div>
 		      <div class="modal-footer">
+		      	<p class="modal-style"><u>Tech used :</u> HTML, CSS, JS, jQuery, Audacity(Audio)</p>
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 		      </div>
 		    </div>
@@ -238,12 +267,14 @@
 		    <div class="modal-content">
 		      <div class="modal-header">
 		        <button type="button" class="close" data-dismiss="modal">&times;</button>
-		        <h4 class="modal-title">Modal Header</h4>
+		        <h4 class="modal-title">3 Day Forecast</h4>
 		      </div>
 		      <div class="modal-body">
-		        <p>Some text in the modal.</p>
+		        <p>Utilizing Open Weather Maps API, this web app pulls the location of draggend event on Google Maps and produces a three day forecast for the city the marker is placed on.</p>
+		        <p>
 		      </div>
 		      <div class="modal-footer">
+		      	<p class="modal-style"><u>Tech used :</u> HTML, CSS, JS, jQuery, API, Google Maps Events</p>
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 		      </div>
 		    </div>
@@ -257,12 +288,14 @@
 		    <div class="modal-content">
 		      <div class="modal-header">
 		        <button type="button" class="close" data-dismiss="modal">&times;</button>
-		        <h4 class="modal-title">Modal Header</h4>
+		        <h4 class="modal-title">JavaScript Calculator</h4>
 		      </div>
 		      <div class="modal-body">
-		        <p>Some text in the modal.</p>
+		        <p>JavaScript Calculator performs addition, subtraction, multiplication and division. Also allows for decimals and negative numbers.</p>
+		        <p>
 		      </div>
 		      <div class="modal-footer">
+		      	<p class="modal-style"><u>Tech used :</u> HTML, CSS, JS</p>
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 		      </div>
 		    </div>
@@ -271,17 +304,103 @@
 
 		<!--Restaurants/Google Maps  -->
 		<div id="restaurants" class="modal fade" role="dialog">
-		  <div class="modal-dialog">
+		    <div class="modal-dialog">
 		    <!-- Modal content-->
 		    <div class="modal-content">
 		      <div class="modal-header">
 		        <button type="button" class="close" data-dismiss="modal">&times;</button>
-		        <h4 class="modal-title">Modal Header</h4>
+		        <h4 class="modal-title">Google Maps / Marker Events</h4>
 		      </div>
 		      <div class="modal-body">
-		        <p>Some text in the modal.</p>
+		        <p>On page load, four marker events are dropped on restaurants in the region I grew up in. Each restaurant has a unique image and modal that allows for the user to navigate to their respective websites.</p>
+		        <p>
 		      </div>
 		      <div class="modal-footer">
+		      	<p class="modal-style"><u>Tech used :</u> HTML, CSS, JS, jQuery, Google Maps Events</p>
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<!--National Parks  -->
+		<div id="parks" class="modal fade" role="dialog">
+		    <div class="modal-dialog">
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">National Parks Registry</h4>
+		      </div>
+		      <div class="modal-body">
+		        <p>Registry of National Parks formatted with data stored in MySQL database. PHP provided the logic to paginate, search and establish the connection with the database. HTML, CSS and a little jQuery provided a few aesthetic front-end detail to bring the page together. There is also a form to submit a National Park and add to the registry and SQL database.</p>
+		        <p>
+		      </div>
+		      <div class="modal-footer">
+		      	<p class="modal-style"><u>Tech used :</u> HTML, CSS, JS, jQuery, PHP, MySQL</p>
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<!--SodaLister  -->
+		<div id="sodalister" class="modal fade" role="dialog">
+		    <div class="modal-dialog">
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">AdLister Clone </h4>
+		      </div>
+		      <div class="modal-body">
+		        <p>Built with one other student, our AdLister clone allows a user to create a user profile through our sign-up portal and contribute to the ads/products home page. User can sign in, add, remove and update products they have contributed to the site as well as see the items they have added in their unique profile page.</p>
+		        <p>
+		      </div>
+		      <div class="modal-footer">
+		      	<p class="modal-style"><u>Tech used :</u> HTML, CSS, JS, jQuery, PHP, MySQL</p>
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<!--Fitwager -->
+		<div id="fitwager" class="modal fade" role="dialog">
+		    <div class="modal-dialog">
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title"><a href="https:fitwager.net" target="_blank">Fitwager</a></h4>
+		      </div>
+		      <div class="modal-body">
+		        <p><u><a style="color:#00d053" href="https:fitwager.net" target="_blank">Fitwager</a></u> is a fully functioning webapp that was developed by me and two other students for our final demo day application. Allowing the user to synch their fitbit account with our Oauth process, fitwager either creates or logs in a user and allows them to compete against their friends in fitness challenges with unique bet types. Winners of the challenges are determined through our connection with the Fitbit API and getting the unique fitness stats for each competitor in the challenge.</p>
+		        <p>
+		      </div>
+		      <div class="modal-footer">
+		      	<p class="modal-style"><u>Tech used :</u> HTML, CSS, JS, jQuery, PHP, MySQL, Laravel, OAuth, Fitbit API</p>
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<!--Code Decipher  -->
+		<div id="codedecipher" class="modal fade" role="dialog">
+		    <div class="modal-dialog">
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">Code Decipher</h4>
+		      </div>
+		      <div class="modal-body">
+		        <p>The page is broken into three unique sections and allows a user to input HTML, CSS and JavaScript with a corresponding result section showing the action of the user inputs.</p>
+		        <p>
+		      </div>
+		      <div class="modal-footer">
+		      	<p class="modal-style"><u>Tech used :</u> HTML, CSS, JS, jQuery</p>
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 		      </div>
 		    </div>
@@ -383,7 +502,7 @@
 				</div>
 			</form>
 			
-			<hr class="featurette-divider hidden-lg"><br><br>
+			<hr class="featurette-divider hidden-lg"><br>
 				<div class="col-md-5 col-md-push-1 address">
 					
 					<h3>Social & Email</h3>

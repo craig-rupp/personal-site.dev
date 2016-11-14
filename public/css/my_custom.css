@@ -31,7 +31,15 @@ figure figcaption {
 	margin:0 !important;
 	display:block;
 }
-
+.modal-style {
+	font-family: sans-serif;
+}
+.modal-title {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.modal-body {
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+}
 
 .portfolio-item .title:before {border-radius:0; display:none}
 .portfolio-item p {margin:0px 0 30px;}
