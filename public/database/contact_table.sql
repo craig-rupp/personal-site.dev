@@ -1,0 +1,10 @@
+USE personal_site;
+
+DROP TABLE IF EXISTS contacts;
+
+CREATE TABLE contacts (
+	id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	name VARCHAR(150) NOT NULL,
+	email VARCHAR(100) NOT NULL,
+	message TEXT NOT NULL
+);
