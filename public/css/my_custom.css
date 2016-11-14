@@ -18,11 +18,179 @@ figure figcaption {
 /*    border: 1px dotted blue;
 */    text-align: center;
 }
-#project_files{
+/*#project_files{
 	float: left;
-}
+}*/
 
 .my-thumbnail img{
 	height: 200px;
 	width: 200px;
+}
+.portfolio {
+	padding:0 !important;
+	margin:0 !important;
+	display:block;
+}
+
+
+.portfolio-item .title:before {border-radius:0; display:none}
+.portfolio-item p {margin:0px 0 30px;}
+.portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
+
+
+.tpl6 h3
+{
+	color:#fff;
+	margin:0;
+	padding:40px 5px 0;
+	font-size:16px;
+	text-transform:uppercase;
+}
+.tpl6 .dmbutton
+{
+	display:inline-block;
+	margin:30px 5px 20px 5px;
+	font-size:13px;
+}
+
+.tpl6 .bg
+{
+	height:100%;
+	width:100%;
+	background-color:#00b3fe;
+	background-color:rgba(0,179,254,.9);
+	text-align:center;
+}
+.he-wrap
+{
+	position:relative;
+	zoom:1;
+
+	*display:inline;
+	position:relative;
+}
+.he-view,.he-zoom
+{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	overflow:hidden;
+	visibility:hidden;
+}
+.he-zoom img
+{
+	position:absolute;
+	top:0;
+	left:0;
+}
+.he-zoomstate
+{
+	position:absolute;
+	bottom:0;
+	right:0;
+	background:#c00;
+	color:#fff;
+	border-radius:3px 0 0 0;
+	font-size:12px;
+	line-height:16px;
+	padding:0 4px;
+	box-shadow:-1px -1px 1px rgba(204,0,0,.3);
+}
+.he-view-show
+{
+	visibility:visible;
+}
+.he-sliders
+{
+	overflow:hidden;
+}
+.he-sliders img
+{
+	display:none;
+}
+.he-sliders img:first-child
+{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+}
+.he-pre,.he-next
+{
+	position:absolute;
+	top:50%;
+	left:0;
+	width:61px;
+	height:35px;
+	margin-top:-18px;
+	background:url("../images/nav.png") no-repeat top left;
+	cursor:pointer;
+}
+.he-next
+{
+	left:auto;
+	right:0;
+	background-position:top right;
+}
+.a0,.a1,.a2,.a3,.a4,.a5,.a6,.a7{
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+	-ms-animation-fill-mode: both;
+	-o-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-duration: .6s;
+	-moz-animation-duration: .6s;
+	-ms-animation-duration: .6s;
+	-o-animation-duration: .6s;
+	animation-duration: .6s;
+}
+.a1
+{
+	-webkit-animation-delay: .2s;
+	-moz-animation-delay: .2s;
+	-o-animation-delay: .2s;
+	animation-delay: .2s;
+}
+.a2
+{
+	-webkit-animation-delay: .4s;
+	-moz-animation-delay: .4s;
+	-o-animation-delay: .4s;
+	animation-delay: .4s;
+}
+.a3
+{
+	-webkit-animation-delay: .6s;
+	-moz-animation-delay: .6s;
+	-o-animation-delay: .6s;
+	animation-delay: .6s;
+}
+.a4
+{
+	-webkit-animation-delay: .8s;
+	-moz-animation-delay: .8s;
+	-o-animation-delay: .8s;
+	animation-delay: .8s;
+}
+.a5
+{
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.a6
+{
+	-webkit-animation-delay: 1.2s;
+	-moz-animation-delay: 1.2s;
+	-o-animation-delay: 1.2s;
+	animation-delay: 1.2s;
+}
+.a7
+{
+	-webkit-animation-delay: 1.4s;
+	-moz-animation-delay: 1.4s;
+	-o-animation-delay: 1.4s;
+	animation-delay: 1.4s;
 }
