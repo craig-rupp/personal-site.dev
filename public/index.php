@@ -37,9 +37,9 @@ function pageController($dbc){
 			$stmt->execute();		
 		}
 	}
-	return [
-		'errors' => $errors
-	];
+	return [];
+	// 	'errors' => $errors
+	// ];
 }
 extract(pageController($dbc));
 ?>
@@ -517,7 +517,7 @@ extract(pageController($dbc));
 				<h2>Contact Me</h2>
 			</div>
 			
-			<form role="form" action="" method="post" >
+			<form role="form" action="http:" method="post" >
 				<div class="col-md-6">
 					<div>
 						<?php if(!empty($errors)) : ?>
